@@ -296,7 +296,7 @@ export default function Home() {
               일시
             </h2>
             <time dateTime="2023-11-28T19:00:00+09:00">
-              2023년 11월 28일(수) 19:00 ~ 21:00
+              2023년 11월 28일(화) 19:00 ~ 21:00
             </time>
             <p className="text-sm text-slate-600">* 18:40부터 접수시작</p>
             <CountdownTimer
