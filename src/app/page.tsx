@@ -70,24 +70,6 @@ export default function Home() {
           aria-labelledby="event-description"
           className="relative flex flex-col md:flex-row justify-around items-center gap-10 min-h-screen mt-[-100px]"
         >
-          <motion.p
-            id="event-description"
-            initial="hidden"
-            animate="visible"
-            exit="exit"
-            variants={profileVariants}
-            transition={{ duration: 0.4 }}
-            className="order-last md:order-first text-normal md:text-sm md:w-1/2"
-          >
-            이번 이벤트는 일본의 외국계 기업에서 근무하는 전문가들의 생생한
-            경험을 직접 듣고, 그들과의 네트워킹을 통해 여러분의 커리어
-            네트워크를 확장하는 동시에, Q&A 세션을 통해 구체적이고 맞춤형 조언을
-            얻을 수 있는 기회를 제공합니다.
-            <br />
-            또한, 참가자 모두에게 유용한 자료와 정보를 제공하며, 비슷한 관심사를
-            가진 다른 구직자들과의 교류를 통해 서로를 돕고, 소중한 인맥을 형성할
-            수 있는 특별한 시간이 될 것입니다.
-          </motion.p>
           <motion.div
             initial="hidden"
             animate="visible"
@@ -95,7 +77,7 @@ export default function Home() {
             variants={profileVariants}
             transition={{ duration: 0.4 }}
             className={cn(
-              "flex flex-col text-right text-5xl md:text-7xl w-full font-bold justify-end items-end"
+              "flex flex-col text-right md:text-left text-5xl md:text-7xl w-full font-bold justify-end md:justify-start items-end md:items-start md:order-first"
             )}
           >
             <motion.h1
@@ -121,6 +103,34 @@ export default function Home() {
               함께합니다.
             </p>
           </motion.div>
+          <motion.p
+            id="event-description"
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            variants={profileVariants}
+            transition={{ duration: 0.4 }}
+            className="order-last md:order-last text-normal md:text-base md:w-2/3"
+          >
+            높은 급여와 실력주의 문화, 자유로운 사무실 분위기 등 많은 이들이
+            꿈꾸는 일본 외자계 기업에 관심을 가져본 적이 있으실 겁니다.
+            <br />
+            <br />
+            하지만 온라인에서 찾을 수 있는 정보는 제한적이고 그 정확성도 늘
+            확신할 수 없는 상황, 이러한 막막함을 해소하기 위해 &apos;일본 외자계
+            현직자 멘토링 특강&apos;이 준비되었습니다.
+            <br />
+            <br />
+            현재 일본 외자계 기업에서 근무하는 다양한 경험을 지닌 멘토들을 모셔,
+            외자계 관련 궁금증은 물론 취업 준비의 노하우까지 생생하게 들을 수
+            있는 이 자리에 여러분을 초대합니다.
+            <br />
+            <br />
+            취업 준비생이든, 직장인이든, 외자계 기업의 현실과 가능성에 대해 알고
+            싶거나 해당 분야의 전문가들과 네트워킹을 희망하는 모든 분들께 이번
+            이벤트는 특별한 경험이 될 것입니다. 주저하지 말고 지금 바로
+            신청버튼을 눌러 참가의 기회를 잡으세요!
+          </motion.p>
         </section>
 
         <ScrollAppearDiv
