@@ -151,7 +151,7 @@ export default function Home() {
               />
               <div
                 className="flex flex-col space-y-2 flex-1"
-                aria-label="Key Information about Teamlab"
+                aria-label="Key Information about hrdk"
               >
                 <h3
                   className="cursor-pointer hover:underline"
@@ -188,7 +188,7 @@ export default function Home() {
               />
               <div
                 className="flex flex-col space-y-2 flex-1"
-                aria-label="Key Information about Teamlab"
+                aria-label="Key Information about worldjob"
               >
                 <h3
                   className="cursor-pointer hover:underline"
@@ -229,7 +229,7 @@ export default function Home() {
               />
               <div
                 className="flex flex-col space-y-2 flex-1"
-                aria-label="Key Information about Teamlab"
+                aria-label="Key Information about Tamastudy"
               >
                 <h3
                   className="cursor-pointer hover:underline"
