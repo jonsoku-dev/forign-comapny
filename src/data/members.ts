@@ -48,6 +48,7 @@ export const membersData: User[] = [
     team: "한국산업인력공단",
     korean: true,
     japanese: true,
+    us: true,
   },
   {
     id: generateUUID(),
@@ -56,6 +57,7 @@ export const membersData: User[] = [
     team: "LINEヤフー",
     korean: true,
     japanese: true,
+    us: true,
     linkedin: "https://www.linkedin.com/in/jongseok-lee-785216191/",
   },
 ];
