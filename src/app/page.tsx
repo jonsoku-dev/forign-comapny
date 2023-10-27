@@ -117,8 +117,10 @@ export default function Home() {
             <br />
             하지만 온라인에서 찾을 수 있는 정보는 제한적이고 그 정확성도 늘
             확신할 수 없는 상황, 이러한 막막함을 해소하기 위해{" "}
-            <strong className='text-lg'>&apos;일본 외자계 현직자 멘토링 특강&apos;</strong>이
-            준비되었습니다.
+            <strong className="text-lg">
+              &apos;일본 외자계 현직자 멘토링 특강&apos;
+            </strong>
+            이 준비되었습니다.
             <br />
             현재 일본 외자계 기업에서 근무하는 다양한 경험을 지닌 멘토들을 모셔,
             외자계 관련 궁금증은 물론 취업 준비의 노하우까지 생생하게 들을 수
@@ -293,12 +295,12 @@ export default function Home() {
             <h2 className="font-bold text-2xl mb-4" id="event-date">
               일시
             </h2>
-            <time dateTime="2023-09-22T20:00:00Z">
+            <time dateTime="2023-11-22T19:00:00+09:00">
               2023년 11월 22일(수) 19:00 ~ 21:00
             </time>
             <p className="text-sm text-slate-600">* 18:40부터 접수시작</p>
             <CountdownTimer
-              targetDate={new Date("2023-09-22T11:00:00Z")}
+              targetDate={new Date("2023-11-22T19:00:00+09:00")}
               aria-label="Event countdown timer"
             />
           </div>
