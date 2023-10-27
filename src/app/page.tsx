@@ -295,12 +295,12 @@ export default function Home() {
             <h2 className="font-bold text-2xl mb-4" id="event-date">
               일시
             </h2>
-            <time dateTime="2023-11-22T19:00:00+09:00">
-              2023년 11월 22일(수) 19:00 ~ 21:00
+            <time dateTime="2023-11-28T19:00:00+09:00">
+              2023년 11월 28일(수) 19:00 ~ 21:00
             </time>
             <p className="text-sm text-slate-600">* 18:40부터 접수시작</p>
             <CountdownTimer
-              targetDate={new Date("2023-11-22T19:00:00+09:00")}
+              targetDate={new Date("2023-11-28T19:00:00+09:00")}
               aria-label="Event countdown timer"
             />
           </div>
@@ -323,8 +323,8 @@ export default function Home() {
             <address
               className={cn(notoSerifJp.className, "text-sm md:text-base")}
             >
-              Time Sharing 시부야 월드 우타가와 빌딩 7F
-              <br />〒 150-0042 東京都渋谷区宇田川町36-6 ワールド宇田川ビル7F
+              Time Sharing 시부야 월드 우타가와 빌딩 9F
+              <br />〒 150-0042 東京都渋谷区宇田川町36-6 ワールド宇田川ビル9F
             </address>
             <div className="w-[275px] h-[320px] md:w-96 md:h-96">
               <GoogleMapViewer
