@@ -429,7 +429,7 @@ export default function Home() {
                     <td className="py-2 px-4">
                       <h5 className="font-normal">【멘토】</h5>
                       <ul className="text-sm">
-                        <li>・ Jai</li>
+                        <li>・ Jai</li>
                       </ul>
                     </td>
                   </tr>
@@ -440,7 +440,7 @@ export default function Home() {
                       <h5 className="font-normal">【멘토】</h5>
                       <ul className="text-sm">
                         <li>・ 정동기</li>
-                        <li>・ 정재성</li>
+                        <li>・ Jai</li>
                       </ul>
                     </td>
                   </tr>
@@ -509,8 +509,8 @@ export default function Home() {
             <h2 className="font-bold text-2xl" id="apply-information">
               신청하기
             </h2>
-            {/* <div>마감했습니다. 다음 이벤트를 기대해주세요!</div> */}
-            <div className="flex space-x-2">
+            <div>마감했습니다. 다음 이벤트를 기대해주세요!</div>
+            {/* <div className="flex space-x-2">
               <button
                 onClick={() =>
                   openInNewTab("https://forms.gle/ZCNDpg9JoD6YTpwH9")
@@ -527,7 +527,7 @@ export default function Home() {
             </div>
             <p>
               * <strong>Google Form</strong>으로 신청 해주세요.
-            </p>
+            </p> */}
           </div>
         </ScrollAppearDiv>
       </main>
