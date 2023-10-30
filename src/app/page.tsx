@@ -429,7 +429,7 @@ export default function Home() {
                     <td className="py-2 px-4">
                       <h5 className="font-normal">【멘토】</h5>
                       <ul className="text-sm">
-                        <li>・ 정재성</li>
+                        <li>・ Jai</li>
                       </ul>
                     </td>
                   </tr>
