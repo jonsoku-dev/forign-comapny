@@ -411,8 +411,7 @@ export default function Home() {
                   <tr className="border-b">
                     <td className="py-2 px-4">19:10-19:30</td>
                     <td className="py-2 px-4">
-                      외국계 기업 특성 안내, 입사 준비과정 노하우, 입사 후 생활
-                      공유 등
+                      면접과 회사 입사과정 그리고 회사문화와 평가/승진에 대해서
                     </td>
                     <td className="py-2 px-4">
                       <h5 className="font-normal">【멘토】</h5>
